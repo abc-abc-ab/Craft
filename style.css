@@ -1,4 +1,4 @@
-tr > td, td > th{
+tr > td, tr > th{
   border-style: solid;
   width: 30px;
   height: 30px;
