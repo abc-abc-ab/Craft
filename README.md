@@ -1,6 +1,6 @@
 **Craft**_ing table_
 =====
-this repository is `Crafting table`.
+this repository is `MINECRAFT Crafting table`.
 ## Example
 ```
  _ _ _
