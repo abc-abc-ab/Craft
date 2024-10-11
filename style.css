@@ -1,11 +1,17 @@
-tr > td{
+#craftingTable tr > td{
   outline-style: solid;
   width: 31.2px;
   height: 31.2px;
   background-color: #ffb53f;
 }
-table{
-  width: 50%;
+#recipe tr > td{
+  border-style: solid;
+  width: 31.2px;
+  height: 31.2px;
+  background-color: #cc9640;
+}
+#recipe{
+  background-color: #806740;
 }
 caption{
   width: 106px;
@@ -13,4 +19,7 @@ caption{
 html{
   width: 0;
   height: 0;
+}
+body{
+  display: flex;
 }
