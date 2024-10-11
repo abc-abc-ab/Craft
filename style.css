@@ -1,6 +1,16 @@
 tr > td{
   outline-style: solid;
-  width: 30px;
-  height: 30px;
+  width: 31.2px;
+  height: 31.2px;
   background-color: #10a0ff;
+}
+table{
+  width: 50%;
+}
+caption{
+  width: 106px;
+}
+html{
+  width: 0;
+  height: 0;
 }
