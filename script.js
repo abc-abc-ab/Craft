@@ -2,6 +2,7 @@ const craft_table = document.getElementById("craftingTable"),
 recipe = document.getElementById("recipe");
 let all = [];
 
+try{
 recipe.children.item(1).childNodes.forEach((v, k, p) => {
     if (v instanceof HTMLElement){
         for (let index0 = 0;i == v.children.children.length;index0++){
@@ -9,6 +10,9 @@ recipe.children.item(1).childNodes.forEach((v, k, p) => {
         }
     }
 });
+}catch(e){
+    alert(e)
+}
 alert(all.join(","))
 select(recipe, 0, 0, true).addEventListener("click", (e) => {
     e.preventDefault();
