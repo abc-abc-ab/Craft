@@ -1,6 +1,6 @@
 const craft_table = document.getElementById("craftingTable"),
 recipe = document.getElementById("recipe");
-let all = [];/* is this Comment? */
+let all = [];/* this is Comment. */
 
 try{
 recipe.children.item(1).childNodes.forEach((v, k, p) => {
