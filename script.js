@@ -3,8 +3,11 @@ recipe = document.getElementById("recipe");
 let all = [];
 
 recipe.children.item(1).childNodes.forEach((v, k, p) => {
-    if (v instanceof HTMLElement)
-        all.push(v);
+    if (v instanceof HTMLElement){
+        for (let index0 = 0;i == v.children.children.length;index0++){
+            all.push(v.children.item(index0))
+        }
+    }
 });
 alert(all.join(","))
 select(recipe, 0, 0, true).addEventListener("click", (e) => {
