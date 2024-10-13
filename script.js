@@ -1,7 +1,7 @@
 const craft_table = document.getElementById("craftingTable"),
 recipe = document.getElementById("recipe");
 
-select(recipe, 0, 0, true).addEventListener("click", (e) => {
+select(recipe, 1, 1, true).addEventListener("click", (e) => {
     e.preventDefault();
     run(1)
 })
