@@ -5,7 +5,7 @@ let all = [];
 try{
 recipe.children.item(1).childNodes.forEach((v, k, p) => {
     if (v instanceof HTMLElement){
-        for (let index0 = 0;i == v.children.children.length;index0++){
+        for (let index0 = 0;index0 == v.children.children.length;index0++){
             all.push(v.children.item(index0))
         }
     }
