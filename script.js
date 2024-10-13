@@ -32,7 +32,7 @@ function run(num){
  * @param {bool} isTable 
  */
 function select(elm, num1, num2, isTable){
-    isTable?
+    return (isTable?
     elm.children.item(1).children.item(num1).children.item(num2):
-    elm.children.item(num1).children.item(num2);
+    elm.children.item(num1).children.item(num2));
 }
