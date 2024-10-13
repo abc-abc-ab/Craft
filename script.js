@@ -23,7 +23,7 @@ select(recipe, 0, 0, true).addEventListener("click", (e) => {
  */
 function run(num){
     if (num !== undefined){
-        alert("It's Message.")
+        alert("It's item("+num+")")
     }
     else{
         throw new SyntaxError("It's Error.");
