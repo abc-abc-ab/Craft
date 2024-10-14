@@ -6,7 +6,7 @@ try{
 recipe.children.item(1).childNodes.forEach((v, k, p) => {
     /*if (v instanceof Node)*/{
         for (let index0 = 0;index0 >= v.childNodes.length - 1;index0++){
-            all.push(v.children.item(index0))
+            all.push(v.children[index0])
         }
     }
 });
