@@ -1,3 +1,4 @@
+/*
 const craft_table = document.getElementById("craftingTable"),
 recipe = document.getElementById("recipe");
 let all = [];/* Comment */
@@ -49,3 +50,4 @@ function select(elm, num1, num2, isTable){
     elm.children.item(1).children.item(num1).children.item(num2):
     elm.children.item(num1).children.item(num2));
 }
+*/
